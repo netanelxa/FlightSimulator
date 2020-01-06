@@ -1,5 +1,6 @@
 # FlightSimulator
 Netanel Abu
+
 Shiran Ben-Meir
 
 ## Description
@@ -28,3 +29,4 @@ The program handles Print and Sleep commands along with while and if conditions.
 FlightGear link https://www.flightgear.org/
 github link https://github.com/netanelxa/FlightSimulator
 
+Created by KfirYehuda and BenAzoulayDevCreated by KfirYehuda and BenAzoulayDev
