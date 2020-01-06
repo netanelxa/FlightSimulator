@@ -22,6 +22,9 @@ The program handles Print and Sleep commands along with while and if conditions.
        --telnet=socket,in,10,127.0.0.1,5402,tcp
        --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small
 3. in terminal, run the command:
+     
+        g++ -std=c++14 *.cpp -Wall -Wextra -Wshadow -Wnon-virtual-dtor -pedantic -o a.out -pthread
+   and then:
        
        ./a.out fly.txt
        
