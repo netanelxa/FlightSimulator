@@ -1,9 +1,20 @@
 #include <iostream>
+#include <vector>
+#include "Command.h"
+#include "OpenServerCommand.h"
+#include "ConnectCommand.h"
+#include "DefineVarCommand.h"
 #include "Lexer.h"
 
 int main() {
-    Lexer* a= new Lexer("fly.txt");
-    a->readFile();
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+ /*   Command *c = new OpenServerCommand();
+    c->execute(1);
+    Command *b = new ConnectCommand();
+    b->execute(3);*/
+   Lexer *d = new Lexer("fly.txt");
+    d->readFile();
+    d->createPairedVector();
+    d->parser();
+    Command *dd = new DefineVarCommand();
+    dd->execute(5);
 }
