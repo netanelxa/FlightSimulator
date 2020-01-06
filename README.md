@@ -15,7 +15,7 @@ Other commands are represented in HashMap. Using this HashMap, the server or the
 The program handles Print and Sleep commands along with while and if conditions. In addition, the program handles math expressions that are given in the file.
 
 
-## Running instructions
+## Running Instructions
 1. download and install ‫‪FlightGear‬‬ simulator.
 2. set the "additional settings" to be:
 
